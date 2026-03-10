@@ -138,7 +138,7 @@ agentic_ai_mvp/
 ```
 
 ### Exact role of each major module
-## agent.py
+#### agent.py
 Main orchestrator. Receives a user request, decides tools, calls MCP tools, and creates the final answer.
 
 ### mcp/server.py

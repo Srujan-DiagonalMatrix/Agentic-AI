@@ -141,19 +141,19 @@ agentic_ai_mvp/
 #### agent.py
 Main orchestrator. Receives a user request, decides tools, calls MCP tools, and creates the final answer.
 
-### mcp/server.py
+#### mcp/server.py
 Exposes all tools to the agent in MCP format. MCP is specifically designed for tools and resources that LLM applications can invoke.
 
-### llm/azure_openai_client.py
+#### llm/azure_openai_client.py
 Calls Azure OpenAI for reasoning and final responses.
 
-### llm/ollama_embeddings.py
+#### llm/ollama_embeddings.py
 Creates embeddings for documents and queries.
 
-### rag/
+#### rag/
 Handles ingestion, chunking, and retrieval of local documents.
 
-### tools/hubspot_tools.py
+#### tools/hubspot_tools.py
 Reads HubSpot contacts, deals, and notes, and can create CRM notes.
 
 ### tools/outlook_tools.py
@@ -165,5 +165,5 @@ Creates reminders in Postgres.
 ### services/scheduler_service.py
 Checks due reminders and marks them ready for notification or action.
 
-### db/
+#### db/
 Stores tasks, reminders, logs, and configuration.

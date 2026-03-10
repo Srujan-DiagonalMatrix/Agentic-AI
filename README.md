@@ -156,13 +156,13 @@ Handles ingestion, chunking, and retrieval of local documents.
 #### 6. tools/hubspot_tools.py
 Reads HubSpot contacts, deals, and notes, and can create CRM notes.
 
-### 7. tools/outlook_tools.py
+#### 7. tools/outlook_tools.py
 Drafts Outlook emails and creates Outlook calendar events using Microsoft Graph.
 
-### 8. tools/reminder_tools.py
+#### 8. tools/reminder_tools.py
 Creates reminders in Postgres.
 
-### 9. services/scheduler_service.py
+#### 9. services/scheduler_service.py
 Checks due reminders and marks them ready for notification or action.
 
 #### 10. db/
